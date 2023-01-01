@@ -7,7 +7,7 @@
 
 ## 主程序rule_reading.py
 
-由于yolov5及unet都是python编写，而后续数据处理部分是利用matlab,为了整体操作方便，该部分了利用了matlab.engine功能，可在python中直接调用matlab函数。 调用了main_demo.py ，**此部分可去掉rule_reading.py文件，把main_demo改成非函数形式，也可在matlab里直接运行整个程序。**
+由于yolov5及unet都是python编写，而后续数据处理部分是利用matlab,为了整体操作方便，该部分了利用了matlab.engine功能  ，可在python中直接调用main_demo.m函数。**此部分可换成main_demo1.m文件，可在matlab里直接运行整个程序。**
 
 ## rule_read1.m 
 
