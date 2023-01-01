@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 
 eng = matlab.engine.start_matlab()
-img_PIL = Image.open('D:/read_rule_tst\img_unet\刻度式游标卡尺001.jpg')
+img_PIL = Image.open('D:/read_rule_tst\img_unet\刻度式游标卡尺001_unet.jpg')
 img_PIL = np.array(img_PIL)
 #print(img_PIL.dtype)
 img_PIL = img_PIL.tolist()  #array转成matlab可读的列表格
