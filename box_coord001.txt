@@ -1,0 +1,14 @@
+object_names is 3
+bounding box is 641 27 693 70
+object_names is 5
+bounding box is 641 23 691 68
+object_names is 0
+bounding box is 34 165 65 194
+object_names is 3
+bounding box is 322 17 379 70
+object_names is 1
+bounding box is 23 24 64 66
+object_names is 2
+bounding box is 171 22 217 70
+object_names is 4
+bounding box is 481 22 529 74
