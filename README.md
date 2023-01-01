@@ -1,4 +1,4 @@
-# Automatic-reading-of-vernier-caliper-
+# Automatic-reading-of-vernier-caliper-游标卡尺的自动读数
 # 该程序实现了对游标卡尺的自动读数，精度达到0.02mm
 
 ## 预处理
