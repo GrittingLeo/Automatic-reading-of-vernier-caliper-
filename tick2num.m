@@ -12,7 +12,7 @@ minor2main_dist=min(abs(dist(:)));
 mark2_for_lineup=x1;
 minor_result=[x1(1)-1]*resolution;
 %disp(['minor tick is  ',num2str(x1) ]);
-disp(['num is',num2str(minor_result),',即对齐位置为游标第',num2str(x1(1)),'个刻度处']);
+disp(['游标读数是',num2str(minor_result),',即对齐位置为游标第',num2str(x1(1)),'个刻度处']);
 % minor_tick_locs=locs2(1,x(1));  % 返回对齐的位置
 % major_tick_locs=locs1(1,y(1));  
 % disp(['major tick and minor tick locate at ',num2str(major_tick_locs),'and ',num2str(minor_tick_locs),' respectively' ]);
@@ -43,6 +43,11 @@ disp(['游标0刻度位于主尺第',num2str(mark1_for_min_0),'个刻度线处']
 major_result=(mark1_for_min_0-main_mark_firstnum)*m_resolution+fistnum;
 % 游标读数
 
-%disp(['主尺读数为',num2str(major_result*10) 'mm']); 
+disp(['主尺读数为',num2str(major_result*10) 'mm']); %
 ruler_out=major_result*10+minor_result;
-%disp(['读数为',num2str(ruler_out) 'mm']); 
+disp(['最终读数为',num2str(ruler_out) 'mm']); %
+
+figure;
+imshow('D:\read_rule_tst\img_orgin\刻度式游标卡尺001.jpg');
+txt={['主尺读数为:',num2str(major_result*10) 'mm'],['最终读数为',num2str(ruler_out) 'mm']};
+text(100,100,txt,'FontSize',16,'Color','red')
