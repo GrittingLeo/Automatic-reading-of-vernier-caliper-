@@ -4,6 +4,7 @@
 ## 预处理
 
 对原图首先有两个预处理，分别用深度学习中的U-net,YOLOV5网络，U-net网络用来分割游标卡尺区域，yolov5识别卡尺上的数字并输出数字所在图像中的坐标。
+![image](https://github.com/GrittingLeo/Automatic-reading-of-vernier-caliper-/blob/main/images/unet1.jpg)
 
 ## 主程序rule_reading.py
 
