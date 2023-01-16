@@ -5,6 +5,7 @@
 
 对原图首先有两个预处理，分别用深度学习中的U-net,YOLOV5网络，U-net网络用来分割游标卡尺区域，yolov5识别卡尺上的数字并输出数字所在图像中的坐标。
 ![image](https://github.com/GrittingLeo/Automatic-reading-of-vernier-caliper-/blob/main/images/unet1.jpg)
+![image](https://github.com/GrittingLeo/Automatic-reading-of-vernier-caliper-/blob/main/images/yolov5.jpg)
 
 ## 主程序rule_reading.py
 
@@ -35,3 +36,5 @@
 游标读数：确定游标0刻度位置，确定主尺刻度与副尺刻度的对其位置，有刻度y坐标即表示是游标刻度的第几根刻度线，乘上卡尺精度则为卡尺读数的小数部分。
 
 <u>**PS:该程序不包括unet，以及yolov5部分，如何得到刻度式游标卡尺001_unet.jpg和box_coord001.txt请参考u-net网络，yolov5的使用。**</u>
+![image](https://github.com/GrittingLeo/Automatic-reading-of-vernier-caliper-/blob/main/images/rsult1.png)
+![image](https://github.com/GrittingLeo/Automatic-reading-of-vernier-caliper-/blob/main/images/rsult2.png)
